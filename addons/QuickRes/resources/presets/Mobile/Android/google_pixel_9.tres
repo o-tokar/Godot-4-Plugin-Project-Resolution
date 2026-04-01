@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="DeviceResolution" format=3 uid="uid://c0fwa1t7esdlw"]
+
+[ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/QuickRes/data/device_resolution.gd" id="1_rqxs8"]
+
+[resource]
+script = ExtResource("1_rqxs8")
+model = "Google Pixel 9"
+viewport_size = Vector2i(412, 923)
+screen_resolution = Vector2i(1080, 2424)
+dpr = 2.625
+release_year = 2024

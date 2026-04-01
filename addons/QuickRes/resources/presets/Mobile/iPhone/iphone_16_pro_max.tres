@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="DeviceResolution" format=3 uid="uid://daprmosjd6bdc"]
+
+[ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/QuickRes/data/device_resolution.gd" id="1_panto"]
+
+[resource]
+script = ExtResource("1_panto")
+model = "iPhone 16 Pro Max"
+viewport_size = Vector2i(430, 932)
+screen_resolution = Vector2i(1290, 2796)
+dpr = 3.0
+release_year = 2024

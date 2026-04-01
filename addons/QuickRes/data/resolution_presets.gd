@@ -24,5 +24,5 @@ func get_preset_by_index(idx: int) -> ResolutionsGroupPreset:
 	return __presets.values()[idx]
 
 
-func get_active_preset_resolution_by_index(idx: int) -> ResolutionData:
+func get_active_preset_resolution_by_index(idx: int) -> DeviceResolution:
 	return __active_preset.resolutions[idx]

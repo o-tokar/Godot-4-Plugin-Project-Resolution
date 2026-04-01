@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="DeviceResolution" format=3 uid="uid://42yrmn6qbp0r"]
+
+[ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/QuickRes/data/device_resolution.gd" id="1_jrukp"]
+
+[resource]
+script = ExtResource("1_jrukp")
+model = "iPad Pro 11\" (2020)"
+viewport_size = Vector2i(695, 995)
+screen_resolution = Vector2i(1668, 2388)
+dpr = 2.4
+release_year = 2020
+metadata/_custom_type_script = "uid://rpk7wqhtoob1"

@@ -1,8 +1,0 @@
-[gd_resource type="Resource" script_class="ResolutionData" format=3 uid="uid://b17wytdb1xphm"]
-
-[ext_resource type="Script" uid="uid://5yoruo18tguq" path="res://addons/QuickRes/data/resolution_data.gd" id="1_o3mu5"]
-
-[resource]
-script = ExtResource("1_o3mu5")
-device_name = "iPhone 16Pro Max"
-resolution = Vector2i(430, 932)

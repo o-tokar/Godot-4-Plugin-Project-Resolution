@@ -1,8 +1,0 @@
-[gd_resource type="Resource" script_class="ResolutionData" format=3 uid="uid://br6tbdn7d8bfr"]
-
-[ext_resource type="Script" uid="uid://5yoruo18tguq" path="res://addons/QuickRes/data/resolution_data.gd" id="1_l74h2"]
-
-[resource]
-script = ExtResource("1_l74h2")
-device_name = "Galaxy S23 Ultra / S24 Ultra"
-resolution = Vector2i(412, 915)

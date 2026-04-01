@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="DeviceResolution" format=3 uid="uid://dq84hm6vsycde"]
+
+[ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/QuickRes/data/device_resolution.gd" id="1_atp1v"]
+
+[resource]
+script = ExtResource("1_atp1v")
+model = "Google Pixel 7 Pro"
+viewport_size = Vector2i(412, 892)
+screen_resolution = Vector2i(1440, 3120)
+dpr = 3.5
+release_year = 2022

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="ResolutionsGroupPreset" format=3 uid="uid://dbbs3as011uih"]
+
+[ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/QuickRes/data/device_resolution.gd" id="1_ncpnx"]
+[ext_resource type="Resource" uid="uid://4eubndc4ue76" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_12.tres" id="2_o2ors"]
+[ext_resource type="Resource" uid="uid://cqctpci48xsaf" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_12_mini.tres" id="3_r3cwh"]
+[ext_resource type="Resource" uid="uid://b44kq5wyc82nt" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_12_pro.tres" id="4_wofen"]
+[ext_resource type="Resource" uid="uid://djlxu7proq2gl" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_12_pro_max.tres" id="5_5ahle"]
+[ext_resource type="Resource" uid="uid://ch261scebc375" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_13.tres" id="6_7huyr"]
+[ext_resource type="Resource" uid="uid://blsc6surf5vtr" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_13_mini.tres" id="7_jeg7g"]
+[ext_resource type="Resource" uid="uid://dugj3n43dp1a8" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_13_pro.tres" id="8_jhwc7"]
+[ext_resource type="Resource" uid="uid://cqprjg72ngh5c" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_13_pro_max.tres" id="9_8y4o5"]
+[ext_resource type="Resource" uid="uid://brn2qmw54xhjp" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_14.tres" id="10_vv74n"]
+[ext_resource type="Resource" uid="uid://4bekdack1r0a" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_14_plus.tres" id="11_s7ske"]
+[ext_resource type="Resource" uid="uid://dmr67l1v41j63" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_14_pro.tres" id="12_nqoet"]
+[ext_resource type="Resource" uid="uid://clkq8pbytct60" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_14_pro_max.tres" id="13_vn8l3"]
+[ext_resource type="Resource" uid="uid://m4aybbe7y33w" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_15.tres" id="14_y0mh6"]
+[ext_resource type="Resource" uid="uid://b2v21epyqqkuv" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_15_plus.tres" id="15_7t5p4"]
+[ext_resource type="Resource" uid="uid://bg6lioxwwhm16" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_15_pro.tres" id="16_ilrlp"]
+[ext_resource type="Resource" uid="uid://bedtoijrcmegm" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_15_pro_max.tres" id="17_yfh2m"]
+[ext_resource type="Resource" uid="uid://dlaxxpgsg44e" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_16.tres" id="18_3pfwc"]
+[ext_resource type="Resource" uid="uid://dbdfvghxhgsvl" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_16e.tres" id="19_wnwim"]
+[ext_resource type="Resource" uid="uid://dxj6lbyc7c3l0" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_16_plus.tres" id="20_vb6r7"]
+[ext_resource type="Resource" uid="uid://b6ecxspq3vqch" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_16_pro.tres" id="21_gqg36"]
+[ext_resource type="Resource" uid="uid://daprmosjd6bdc" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_16_pro_max.tres" id="22_gbwo0"]
+[ext_resource type="Resource" uid="uid://buth1f35xs07v" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_17.tres" id="23_3f128"]
+[ext_resource type="Resource" uid="uid://censu2yshpkpc" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_17_air.tres" id="24_agqsl"]
+[ext_resource type="Resource" uid="uid://i8cloalwf4xr" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_17_pro.tres" id="25_1jj5n"]
+[ext_resource type="Resource" uid="uid://dxp0hpjwovmin" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_17_pro_max.tres" id="26_ari0g"]
+[ext_resource type="Resource" uid="uid://det0u4eksafgw" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_se_(3rd_generation).tres" id="27_w5nc7"]
+[ext_resource type="Script" uid="uid://bvflwl7sgqv3s" path="res://addons/QuickRes/data/resolutions_group_preset.gd" id="28_ex7fq"]
+
+[resource]
+script = ExtResource("28_ex7fq")
+preset_name = "iPhones"
+resolutions = Array[ExtResource("1_ncpnx")]([ExtResource("2_o2ors"), ExtResource("3_r3cwh"), ExtResource("4_wofen"), ExtResource("5_5ahle"), ExtResource("6_7huyr"), ExtResource("7_jeg7g"), ExtResource("8_jhwc7"), ExtResource("9_8y4o5"), ExtResource("10_vv74n"), ExtResource("11_s7ske"), ExtResource("12_nqoet"), ExtResource("13_vn8l3"), ExtResource("14_y0mh6"), ExtResource("15_7t5p4"), ExtResource("16_ilrlp"), ExtResource("17_yfh2m"), ExtResource("18_3pfwc"), ExtResource("19_wnwim"), ExtResource("20_vb6r7"), ExtResource("21_gqg36"), ExtResource("22_gbwo0"), ExtResource("23_3f128"), ExtResource("24_agqsl"), ExtResource("25_1jj5n"), ExtResource("26_ari0g"), ExtResource("27_w5nc7")])
+metadata/_custom_type_script = "uid://bvflwl7sgqv3s"

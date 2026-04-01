@@ -1,8 +1,0 @@
-[gd_resource type="Resource" script_class="ResolutionData" format=3 uid="uid://bkeeidvdkj408"]
-
-[ext_resource type="Script" uid="uid://5yoruo18tguq" path="res://addons/QuickRes/data/resolution_data.gd" id="1_k4st1"]
-
-[resource]
-script = ExtResource("1_k4st1")
-device_name = "iPhone SE (3rd gen)"
-resolution = Vector2i(375, 667)

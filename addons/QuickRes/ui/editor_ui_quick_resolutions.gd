@@ -51,18 +51,18 @@ func __preset_selected(_preset_name: String):
 	__display_resolutions_list(__res.get_preset_by_name(_preset_name).resolutions)
 
 
-func __display_resolutions_list(resolutions: Array[ResolutionData]):
+func __display_resolutions_list(resolutions: Array[DeviceResolution]):
 	__resolutions_options_display.clear()
 
 	for res in resolutions:
-		var _wh = "[ {width}x{height} ]".format({"width": res.resolution.x, "height": res.resolution.y})
-		__resolutions_options_display.add_item(res.device_name + " - " + _wh)
+		var _wh = "[ {width}x{height} ]".format({"width": res.screen_resolution.x, "height": res.screen_resolution.y})
+		__resolutions_options_display.add_item(res.model + " - " + _wh)
 
 	Extras.connect_once(__resolutions_options_display.item_selected, __select_resolution)
 
 
 func __select_resolution(idx: int):
-	var resolution = __res.get_active_preset_resolution_by_index(idx).resolution
+	var resolution = __res.get_active_preset_resolution_by_index(idx).screen_resolution
 	__active_resolution = resolution
 	__display_viewport_size_widget.resolution = resolution
 	__display_override_size_widget.resolution = resolution

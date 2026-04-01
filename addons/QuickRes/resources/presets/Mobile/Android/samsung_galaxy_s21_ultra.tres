@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="DeviceResolution" format=3 uid="uid://b216w2ygr70q5"]
+
+[ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/QuickRes/data/device_resolution.gd" id="1_13cdp"]
+
+[resource]
+script = ExtResource("1_13cdp")
+model = "Samsung Galaxy S21 Ultra"
+viewport_size = Vector2i(384, 853)
+screen_resolution = Vector2i(1440, 3200)
+dpr = 3.75
+release_year = 2021

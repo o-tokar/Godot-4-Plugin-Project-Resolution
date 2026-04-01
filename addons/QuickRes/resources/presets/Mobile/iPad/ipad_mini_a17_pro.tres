@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="DeviceResolution" format=3 uid="uid://bxj6wlgjgsuki"]
+
+[ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/QuickRes/data/device_resolution.gd" id="1_mrcxx"]
+
+[resource]
+script = ExtResource("1_mrcxx")
+model = "iPad mini (A17 Pro)"
+viewport_size = Vector2i(572, 872)
+screen_resolution = Vector2i(1488, 2266)
+dpr = 2.6
+release_year = 2024
+metadata/_custom_type_script = "uid://rpk7wqhtoob1"

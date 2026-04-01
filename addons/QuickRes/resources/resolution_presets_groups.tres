@@ -2,9 +2,14 @@
 
 [ext_resource type="Script" uid="uid://bvflwl7sgqv3s" path="res://addons/QuickRes/data/resolutions_group_preset.gd" id="1_kfcib"]
 [ext_resource type="Script" uid="uid://djkqx568wnd2b" path="res://addons/QuickRes/data/resolution_presets.gd" id="1_qg17v"]
-[ext_resource type="Resource" uid="uid://dbbs3as011uih" path="res://addons/QuickRes/resources/presets/Official/iPhone/iphone_smartphones_resolutions.tres" id="2_ih6qx"]
-[ext_resource type="Resource" uid="uid://bqbqhccv7ccnq" path="res://addons/QuickRes/resources/presets/Official/Android/android_resolutions.tres" id="3_60g3o"]
+[ext_resource type="Resource" uid="uid://bqbqhccv7ccnq" path="res://addons/QuickRes/resources/presets/Mobile/Android/_google_pixel_resolutions.tres" id="2_610xe"]
+[ext_resource type="Resource" uid="uid://f43hrugvig2y" path="res://addons/QuickRes/resources/presets/Mobile/Android/_motorola_resolutions.tres" id="3_dmd0e"]
+[ext_resource type="Resource" uid="uid://ck27a7y3yms1w" path="res://addons/QuickRes/resources/presets/Mobile/Android/_nokia_resolutions.tres" id="4_g2pc2"]
+[ext_resource type="Resource" uid="uid://b265vxjgr5fvm" path="res://addons/QuickRes/resources/presets/Mobile/Android/_nothing_phone_resolutions.tres" id="5_rd41a"]
+[ext_resource type="Resource" uid="uid://1li86nlhg4mt" path="res://addons/QuickRes/resources/presets/Mobile/Android/_samsung_resolutions.tres" id="6_1lpab"]
+[ext_resource type="Resource" uid="uid://8kwb8yif4o52" path="res://addons/QuickRes/resources/presets/Mobile/iPad/_ipad_resolutions.tres" id="7_vcsvk"]
+[ext_resource type="Resource" uid="uid://dbbs3as011uih" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/_iphone_resolutions.tres" id="8_jmd5h"]
 
 [resource]
 script = ExtResource("1_qg17v")
-__preset_groups = Array[ExtResource("1_kfcib")]([ExtResource("3_60g3o"), ExtResource("2_ih6qx")])
+__preset_groups = Array[ExtResource("1_kfcib")]([ExtResource("2_610xe"), ExtResource("3_dmd0e"), ExtResource("4_g2pc2"), ExtResource("5_rd41a"), ExtResource("6_1lpab"), ExtResource("7_vcsvk"), ExtResource("8_jmd5h")])

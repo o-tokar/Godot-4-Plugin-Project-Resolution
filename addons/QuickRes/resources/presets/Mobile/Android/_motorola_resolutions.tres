@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ResolutionsGroupPreset" format=3 uid="uid://f43hrugvig2y"]
+
+[ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/QuickRes/data/device_resolution.gd" id="1_x8h0a"]
+[ext_resource type="Resource" uid="uid://cnpbro1cx1mnm" path="res://addons/QuickRes/resources/presets/Mobile/Android/motorola_edge_70_fusion_plus.tres" id="2_y08on"]
+[ext_resource type="Resource" uid="uid://djhyvi31qi6jp" path="res://addons/QuickRes/resources/presets/Mobile/Android/motorola_moto_g_play.tres" id="3_px8q2"]
+[ext_resource type="Script" uid="uid://bvflwl7sgqv3s" path="res://addons/QuickRes/data/resolutions_group_preset.gd" id="14_8hbjp"]
+
+[resource]
+script = ExtResource("14_8hbjp")
+preset_name = "Motorola"
+resolutions = Array[ExtResource("1_x8h0a")]([ExtResource("2_y08on"), ExtResource("3_px8q2")])
+metadata/_custom_type_script = "uid://bvflwl7sgqv3s"

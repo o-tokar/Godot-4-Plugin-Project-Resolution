@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="DeviceResolution" format=3 uid="uid://ca0kt0iq088ki"]
+
+[ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/QuickRes/data/device_resolution.gd" id="1_klwe4"]
+
+[resource]
+script = ExtResource("1_klwe4")
+model = "Nokia 5.4"
+viewport_size = Vector2i(360, 780)
+screen_resolution = Vector2i(720, 1560)
+dpr = 2.0
+release_year = 2020

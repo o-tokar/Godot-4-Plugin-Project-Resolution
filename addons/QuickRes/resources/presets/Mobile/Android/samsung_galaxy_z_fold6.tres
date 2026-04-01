@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="DeviceResolution" format=3 uid="uid://c3j50wuykuaat"]
+
+[ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/QuickRes/data/device_resolution.gd" id="1_gmiy7"]
+
+[resource]
+script = ExtResource("1_gmiy7")
+model = "Samsung Galaxy Z Fold6"
+viewport_size = Vector2i(619, 720)
+screen_resolution = Vector2i(1856, 2160)
+dpr = 3.0
