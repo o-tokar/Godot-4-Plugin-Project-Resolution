@@ -5,8 +5,9 @@
 [ext_resource type="PackedScene" uid="uid://cl3q0vvterljm" path="res://addons/QuickRes/scenes/resolution_select_group_btn.tscn" id="3_gqcfx"]
 [ext_resource type="Script" uid="uid://cxvnabfg1dtyt" path="res://addons/QuickRes/ui/array_btns_signal_group.gd" id="4_nw6xa"]
 [ext_resource type="Script" uid="uid://d0jch0jc5e2he" path="res://addons/QuickRes/ui/h_slider_set_widget.gd" id="5_brn55"]
+[ext_resource type="Script" uid="uid://chadouii87058" path="res://addons/QuickRes/ui/display_settings_size_widget.gd" id="6_l7gbp"]
 
-[node name="editor_ui_quick_resolutions" type="Control" unique_id=395159137 node_paths=PackedStringArray("__resolutions_options_display", "__check_box_orientation", "__groups_btns", "__select_res")]
+[node name="QuickRes" type="Control" unique_id=395159137 node_paths=PackedStringArray("__groups_btns", "__viewport_settings_display_label", "__window_override_settings_display_label", "__resolutions_options_display", "__check_box_orientation", "__display_viewport_size_widget", "__display_override_size_widget")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -15,11 +16,14 @@ grow_horizontal = 2
 grow_vertical = 2
 focus_mode = 1
 script = ExtResource("1_mcygn")
+__groups_btns = NodePath("VBoxContainer/arr_btns_group")
+__viewport_settings_display_label = NodePath("VBoxContainer/viewport_settings_display_label")
+__window_override_settings_display_label = NodePath("VBoxContainer/window_override_settings_display_label")
 __resolutions_options_display = NodePath("VBoxContainer/select_option_list/OptionButton")
 __check_box_orientation = NodePath("VBoxContainer/select_option_list/CheckBox")
-__groups_btns = NodePath("VBoxContainer/arr_btns_group")
-__select_res = NodePath("VBoxContainer/HBoxContainer/add_res_preset_btn")
 __res = ExtResource("2_l7gbp")
+__display_viewport_size_widget = NodePath("VBoxContainer/display_settings_size_widget/dpr_set_viewport")
+__display_override_size_widget = NodePath("VBoxContainer/display_settings_size_widget/dpr_set_window_override")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=216368347]
 layout_mode = 1
@@ -32,10 +36,21 @@ grow_vertical = 2
 [node name="Title" type="Label" parent="VBoxContainer" unique_id=638270957]
 self_modulate = Color(0.4392157, 1, 0.5058824, 1)
 layout_mode = 2
-text = "Responsive Design Mode"
+text = "Quick resolution"
+vertical_alignment = 1
+
+[node name="viewport_settings_display_label" type="Label" parent="VBoxContainer" unique_id=1518702471]
+self_modulate = Color(0.4392157, 1, 0.5058824, 1)
+layout_mode = 2
+vertical_alignment = 1
+
+[node name="window_override_settings_display_label" type="Label" parent="VBoxContainer" unique_id=1722639455]
+self_modulate = Color(0.4392157, 1, 0.5058824, 1)
+layout_mode = 2
 vertical_alignment = 1
 
 [node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer" unique_id=860295648]
+visible = false
 layout_mode = 2
 
 [node name="readme_btn" parent="VBoxContainer/HBoxContainer" unique_id=1108454295 instance=ExtResource("3_gqcfx")]
@@ -67,6 +82,7 @@ layout_mode = 2
 layout_mode = 2
 
 [node name="CheckBox" type="CheckBox" parent="VBoxContainer/select_option_list" unique_id=658440218]
+self_modulate = Color(0.4392157, 1, 0.5058824, 1)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_stretch_ratio = 0.0
@@ -81,18 +97,16 @@ size_flags_stretch_ratio = 0.0
 custom_minimum_size = Vector2(0, 16)
 layout_mode = 2
 
-[node name="dpr_slider" type="HBoxContainer" parent="VBoxContainer" unique_id=1506268014 node_paths=PackedStringArray("__slider", "__set_viewport_btn", "__set_window_override_btn", "__range_label")]
+[node name="dpr_slider" type="HBoxContainer" parent="VBoxContainer" unique_id=1506268014 node_paths=PackedStringArray("__slider", "__range_label")]
 layout_mode = 2
 script = ExtResource("5_brn55")
 __slider = NodePath("HSlider")
-__set_viewport_btn = NodePath("../dpr_set_viewport/set_viewport_btn")
-__set_window_override_btn = NodePath("../dpr_set_window_override/set_viewport_btn")
 __range_label = NodePath("range_label")
 
 [node name="Label" type="Label" parent="VBoxContainer/dpr_slider" unique_id=1967313865]
 self_modulate = Color(0.4392157, 1, 0.5058824, 1)
 layout_mode = 2
-text = "Physical Resolution ÷ DPR"
+text = "physical resolution ÷ DPR"
 
 [node name="range_label" type="Label" parent="VBoxContainer/dpr_slider" unique_id=2056775240]
 self_modulate = Color(0.4392157, 1, 0.5058824, 1)
@@ -110,30 +124,48 @@ max_value = 3.6
 step = 0.1
 value = 1.0
 
-[node name="dpr_set_viewport" type="HBoxContainer" parent="VBoxContainer" unique_id=1199716733]
+[node name="display_settings_size_widget" type="VBoxContainer" parent="VBoxContainer" unique_id=902243774]
 layout_mode = 2
-script = ExtResource("5_brn55")
 
-[node name="set_viewport_btn" parent="VBoxContainer/dpr_set_viewport" unique_id=1729150968 instance=ExtResource("3_gqcfx")]
+[node name="dpr_set_viewport" type="HBoxContainer" parent="VBoxContainer/display_settings_size_widget" unique_id=1199716733 node_paths=PackedStringArray("__set_check_box", "__set_btn", "__drp_slider")]
+layout_mode = 2
+script = ExtResource("6_l7gbp")
+__settings_prop_prefix = "size_viewport_"
+__set_check_box = NodePath("set_viewport_check_box")
+__set_btn = NodePath("__set_viewport_btn")
+__drp_slider = NodePath("../../dpr_slider")
+
+[node name="set_viewport_check_box" type="CheckBox" parent="VBoxContainer/display_settings_size_widget/dpr_set_viewport" unique_id=1554659356]
+self_modulate = Color(0.4392157, 1, 0.5058824, 1)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.0
+text = "viewport"
+icon_alignment = 1
+
+[node name="__set_viewport_btn" parent="VBoxContainer/display_settings_size_widget/dpr_set_viewport" unique_id=1729150968 instance=ExtResource("3_gqcfx")]
 layout_mode = 2
 size_flags_horizontal = 1
 text = "Set"
 
-[node name="Label" type="Label" parent="VBoxContainer/dpr_set_viewport" unique_id=1663018229]
+[node name="dpr_set_window_override" type="HBoxContainer" parent="VBoxContainer/display_settings_size_widget" unique_id=647795607 node_paths=PackedStringArray("__set_check_box", "__set_btn", "__drp_slider")]
+layout_mode = 2
+script = ExtResource("6_l7gbp")
+__settings_prop_prefix = "size_override_"
+__set_check_box = NodePath("set_override_check_box")
+__set_btn = NodePath("__window_override_btn")
+__drp_slider = NodePath("../../dpr_slider")
+
+[node name="set_override_check_box" type="CheckBox" parent="VBoxContainer/display_settings_size_widget/dpr_set_window_override" unique_id=1618642995]
 self_modulate = Color(0.4392157, 1, 0.5058824, 1)
 layout_mode = 2
-text = "display/window/size/viewport"
+size_flags_horizontal = 0
+size_flags_stretch_ratio = 0.0
+text = "override:"
+icon_alignment = 1
 
-[node name="dpr_set_window_override" type="HBoxContainer" parent="VBoxContainer" unique_id=647795607]
+[node name="__window_override_btn" parent="VBoxContainer/display_settings_size_widget/dpr_set_window_override" unique_id=1876072097 instance=ExtResource("3_gqcfx")]
 layout_mode = 2
-script = ExtResource("5_brn55")
-
-[node name="set_viewport_btn" parent="VBoxContainer/dpr_set_window_override" unique_id=1876072097 instance=ExtResource("3_gqcfx")]
-layout_mode = 2
-size_flags_horizontal = 1
+size_flags_horizontal = 8
+size_flags_vertical = 4
 text = "Set"
-
-[node name="Label" type="Label" parent="VBoxContainer/dpr_set_window_override" unique_id=804383083]
-self_modulate = Color(0.4392157, 1, 0.5058824, 1)
-layout_mode = 2
-text = "display/window/size/window_width_override"
