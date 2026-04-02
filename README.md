@@ -34,7 +34,6 @@ Once enabled, the plugin provides an easy interface to:
 - Apply the resolution immediately in the editor
 - Test your game's UI and gameplay at different sizes
 - Customize. (See `/resources/presets/`) Serialize your own `ResolutionGroupsCollection` into the editor's scene `QuickResolutionEditorUI` -> `/scenes/quick_resolution_editor_plugin.tscn` and work with your target platform's presets.
-- Any contribution — whether new resolution devices or functionality — is greeted with a warm welcome.
 
 
 ### Device Resolutions
@@ -42,3 +41,6 @@ Once enabled, the plugin provides an easy interface to:
 The addon includes many real-world device resolutions sourced from:
 - [screensizechecker.com/devices](https://screensizechecker.com/devices)
 - [gsmarena.com](https://www.gsmarena.com/)
+
+
+**Any contribution — whether new resolution devices or functionality — is greeted with a warm welcome.❤️**
