@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="DeviceResolution" format=3 uid="uid://dt50f7pnc2k3e"]
+
+[ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/quick_resolution/data/device_resolution.gd" id="1_pjvgf"]
+
+[resource]
+script = ExtResource("1_pjvgf")
+model = "iPad Air 13\" (M3)"
+override_resolution_size = Vector2i(1024, 1366)
+screen_resolution = Vector2i(2048, 2732)
+dpr = 2.0
+release_year = 2025
+metadata/_custom_type_script = "uid://rpk7wqhtoob1"

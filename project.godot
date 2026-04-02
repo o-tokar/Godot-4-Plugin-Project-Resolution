@@ -20,8 +20,8 @@ config/features=PackedStringArray("4.6", "Forward Plus")
 
 [display]
 
-window/size/viewport_width=1224
-window/size/viewport_height=2720
+window/size/viewport_width=1440
+window/size/viewport_height=3120
 window/subwindows/embed_subwindows=false
 window/stretch/mode="viewport"
 

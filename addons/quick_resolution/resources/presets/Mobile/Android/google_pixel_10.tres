@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="DeviceResolution" format=3 uid="uid://ovr750dok75j"]
+
+[ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/quick_resolution/data/device_resolution.gd" id="1_m8xuf"]
+
+[resource]
+script = ExtResource("1_m8xuf")
+model = "Google Pixel 10"
+override_resolution_size = Vector2i(412, 923)
+screen_resolution = Vector2i(1080, 2424)
+dpr = 2.625
+release_year = 2025

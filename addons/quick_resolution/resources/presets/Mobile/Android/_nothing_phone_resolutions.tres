@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ResolutionPresetsGroup" format=3 uid="uid://b265vxjgr5fvm"]
+
+[ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/quick_resolution/data/device_resolution.gd" id="1_3v31s"]
+[ext_resource type="Resource" uid="uid://c67mn5salqbq3" path="res://addons/quick_resolution/resources/presets/Mobile/Android/nothing_cmf_phone_1.tres" id="2_3okd1"]
+[ext_resource type="Resource" uid="uid://dlomih6ide411" path="res://addons/quick_resolution/resources/presets/Mobile/Android/nothing_phone_2.tres" id="3_nrfcu"]
+[ext_resource type="Resource" uid="uid://bpsmaflr1ngph" path="res://addons/quick_resolution/resources/presets/Mobile/Android/nothing_phone_2a_plus.tres" id="4_xb2ep"]
+[ext_resource type="Resource" uid="uid://da2v33iaq4jnk" path="res://addons/quick_resolution/resources/presets/Mobile/Android/nothing_phone_3a_lite.tres" id="5_5jlfc"]
+[ext_resource type="Resource" uid="uid://bgp3ps5uyblfg" path="res://addons/quick_resolution/resources/presets/Mobile/Android/nothing_phone_4a.tres" id="6_5gpjk"]
+[ext_resource type="Resource" uid="uid://cp47h83dla5ab" path="res://addons/quick_resolution/resources/presets/Mobile/Android/nothing_phone_4a_pro.tres" id="7_3mvlg"]
+[ext_resource type="Script" uid="uid://bvflwl7sgqv3s" path="res://addons/quick_resolution/data/resolutions_group_preset.gd" id="14_a2shm"]
+
+[resource]
+script = ExtResource("14_a2shm")
+preset_name = "Nothing Phone"
+resolutions = Array[ExtResource("1_3v31s")]([ExtResource("2_3okd1"), ExtResource("3_nrfcu"), ExtResource("4_xb2ep"), ExtResource("5_5jlfc"), ExtResource("6_5gpjk"), ExtResource("7_3mvlg")])
+metadata/_custom_type_script = "uid://bvflwl7sgqv3s"

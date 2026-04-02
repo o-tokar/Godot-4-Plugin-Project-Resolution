@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="ResolutionPresetsGroup" format=3 uid="uid://1li86nlhg4mt"]
+
+[ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/quick_resolution/data/device_resolution.gd" id="1_1g1lt"]
+[ext_resource type="Resource" uid="uid://jk2fdvltuxl0" path="res://addons/quick_resolution/resources/presets/Mobile/Android/google_pixel_6.tres" id="2_qj1nj"]
+[ext_resource type="Resource" uid="uid://djkwmyto0tnw3" path="res://addons/quick_resolution/resources/presets/Mobile/Android/google_pixel_6_pro.tres" id="3_pnb60"]
+[ext_resource type="Resource" uid="uid://btkydidyeix7u" path="res://addons/quick_resolution/resources/presets/Mobile/Android/google_pixel_7.tres" id="4_5hsrm"]
+[ext_resource type="Resource" uid="uid://dq84hm6vsycde" path="res://addons/quick_resolution/resources/presets/Mobile/Android/google_pixel_7_pro.tres" id="5_w65hm"]
+[ext_resource type="Resource" uid="uid://d20jwvh1gcllm" path="res://addons/quick_resolution/resources/presets/Mobile/Android/google_pixel_8.tres" id="6_hdtku"]
+[ext_resource type="Resource" uid="uid://bjpl28bdbb7wo" path="res://addons/quick_resolution/resources/presets/Mobile/Android/google_pixel_8_pro.tres" id="7_hyujp"]
+[ext_resource type="Resource" uid="uid://c0fwa1t7esdlw" path="res://addons/quick_resolution/resources/presets/Mobile/Android/google_pixel_9.tres" id="8_crl51"]
+[ext_resource type="Resource" uid="uid://dl2o48b82rn7r" path="res://addons/quick_resolution/resources/presets/Mobile/Android/google_pixel_9_pro.tres" id="9_vig2m"]
+[ext_resource type="Resource" uid="uid://bc7khmjnk1huc" path="res://addons/quick_resolution/resources/presets/Mobile/Android/google_pixel_9_pro_xl.tres" id="10_x1lqn"]
+[ext_resource type="Resource" uid="uid://ovr750dok75j" path="res://addons/quick_resolution/resources/presets/Mobile/Android/google_pixel_10.tres" id="11_gdh1h"]
+[ext_resource type="Resource" uid="uid://dlthaw0u7fcry" path="res://addons/quick_resolution/resources/presets/Mobile/Android/google_pixel_10_pro.tres" id="12_g10rw"]
+[ext_resource type="Resource" uid="uid://o8ieew2tcdkf" path="res://addons/quick_resolution/resources/presets/Mobile/Android/google_pixel_10_pro_xl.tres" id="13_3q6th"]
+[ext_resource type="Script" uid="uid://bvflwl7sgqv3s" path="res://addons/quick_resolution/data/resolutions_group_preset.gd" id="14_6ykyb"]
+
+[resource]
+script = ExtResource("14_6ykyb")
+preset_name = "Google Pixel"
+resolutions = Array[ExtResource("1_1g1lt")]([ExtResource("2_qj1nj"), ExtResource("3_pnb60"), ExtResource("4_5hsrm"), ExtResource("5_w65hm"), ExtResource("6_hdtku"), ExtResource("7_hyujp"), ExtResource("8_crl51"), ExtResource("9_vig2m"), ExtResource("10_x1lqn"), ExtResource("11_gdh1h"), ExtResource("12_g10rw"), ExtResource("13_3q6th")])
+metadata/_custom_type_script = "uid://bvflwl7sgqv3s"

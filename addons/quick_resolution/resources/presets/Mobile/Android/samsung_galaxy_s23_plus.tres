@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="DeviceResolution" format=3 uid="uid://kvjaj1pglfgj"]
+
+[ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/quick_resolution/data/device_resolution.gd" id="1_c35gm"]
+
+[resource]
+script = ExtResource("1_c35gm")
+model = "Samsung Galaxy S23+"
+override_resolution_size = Vector2i(384, 832)
+screen_resolution = Vector2i(1080, 2340)
+dpr = 2.8129999999999997
+release_year = 2023

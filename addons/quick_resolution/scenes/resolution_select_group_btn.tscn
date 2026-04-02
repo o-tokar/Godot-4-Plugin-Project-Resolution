@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://cl3q0vvterljm"]
+
+[ext_resource type="Theme" uid="uid://dkunm8rcpujbd" path="res://addons/quick_resolution/extra/btn_theme.tres" id="1_7nsyt"]
+
+[node name="resolution_select_group_btn" type="Button" unique_id=1108454295]
+size_flags_horizontal = 3
+size_flags_vertical = 0
+theme = ExtResource("1_7nsyt")
+text = "BUTTON"

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="DeviceResolution" format=3 uid="uid://6lrw38omsv3m"]
+
+[ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/quick_resolution/data/device_resolution.gd" id="1_xssff"]
+
+[resource]
+script = ExtResource("1_xssff")
+model = "iPad Pro 12.9\" (2020)"
+override_resolution_size = Vector2i(788, 1051)
+screen_resolution = Vector2i(2048, 2732)
+dpr = 2.6
+release_year = 2020
+metadata/_custom_type_script = "uid://rpk7wqhtoob1"
