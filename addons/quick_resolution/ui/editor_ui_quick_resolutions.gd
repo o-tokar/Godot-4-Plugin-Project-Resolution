@@ -1,7 +1,7 @@
 @tool
 class_name QuickResolutionEditorUI extends Control
 
-@export var __groups_btns: ArrayBtnsSignalGroup
+@export var __groups_btns: ArrBtnGroupGroup
 @export var __preset_name_label: Label
 @export var __device_preset_model_label: Label
 @export var __viewport_settings_display_label: Label

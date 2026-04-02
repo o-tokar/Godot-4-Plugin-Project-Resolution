@@ -1,5 +1,7 @@
 @tool
-class_name ArrayBtnsSignalGroup extends CanvasItem
+class_name ArrBtnGroupGroup extends CanvasItem
+
+
 @export var __btn_tscn: PackedScene
 var __btns: Array[BaseButton]
 var __btns_group = ButtonGroup.new()

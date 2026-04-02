@@ -7,4 +7,4 @@ class Settings:
 	const SIZE_OVERRIDE_HEIGHT: String = "display/window/size/window_height_override"
 
 class Paths:
-	const ACTIVE_RESOLUTION: String = "res://addons/QuickRes/resources/active_resolution.tres"
+	const ACTIVE_RESOLUTION: String = "res://addons/quick_resolution/resources/active_resolution.tres"

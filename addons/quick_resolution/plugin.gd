@@ -13,7 +13,7 @@ func _disable_plugin() -> void:
 
 
 func _ready() -> void:
-	__quick_resolution_editor = preload("res://addons/QuickRes/scenes/quick_resolution_editor_plugin.tscn").instantiate()
+	__quick_resolution_editor = preload("res://addons/quick_resolution/scenes/quick_resolution_editor_plugin.tscn").instantiate()
 	add_control_to_dock(DOCK_SLOT_RIGHT_UL, __quick_resolution_editor)
 	__quick_resolution_editor.init(self )
 

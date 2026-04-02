@@ -27,7 +27,7 @@ window/stretch/mode="viewport"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/QuickRes/plugin.cfg", "res://addons/godot-plugin-refresher/plugin.cfg")
+enabled=PackedStringArray("res://addons/godot-plugin-refresher/plugin.cfg", "res://addons/quick_resolution/plugin.cfg")
 
 [rendering]
 

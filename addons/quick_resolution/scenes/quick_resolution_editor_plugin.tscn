@@ -4,7 +4,7 @@
 [ext_resource type="Resource" uid="uid://bs5uvc6b065vb" path="res://addons/quick_resolution/resources/presets/Mobile/resolution_presets_collection.tres" id="2_mcygn"]
 [ext_resource type="PackedScene" uid="uid://cl3q0vvterljm" path="res://addons/quick_resolution/scenes/resolution_select_group_btn.tscn" id="3_gqcfx"]
 [ext_resource type="Theme" uid="uid://dkunm8rcpujbd" path="res://addons/quick_resolution/extra/btn_theme.tres" id="4_mcygn"]
-[ext_resource type="Script" uid="uid://cxvnabfg1dtyt" path="res://addons/quick_resolution/ui/array_btns_signal_group.gd" id="4_nw6xa"]
+[ext_resource type="Script" uid="uid://dyg2jqv1vpm8e" path="res://addons/quick_resolution/ui/arr_btn_group_group.gd" id="4_nw6xa"]
 
 [node name="Quick Resolution" type="Control" unique_id=395159137 node_paths=PackedStringArray("__groups_btns", "__preset_name_label", "__device_preset_model_label", "__viewport_settings_display_label", "__window_override_settings_display_label", "__resolutions_options_display", "__orientation_check_box", "__use_override_check_box")]
 layout_mode = 3
@@ -81,14 +81,14 @@ layout_mode = 2
 self_modulate = Color(0.4392157, 1, 0.5058824, 1)
 layout_mode = 2
 size_flags_horizontal = 0
-text = "model: iPhone 13 Pro Max - 2021"
+text = "model: Google Pixel 7 Pro - 2022"
 vertical_alignment = 1
 
 [node name="viewport_settings_display_label" type="Label" parent="VBoxContainer" unique_id=1518702471]
 self_modulate = Color(0.4392157, 1, 0.5058824, 1)
 layout_mode = 2
 size_flags_horizontal = 3
-text = "size_viewport_[1284 x 2778]"
+text = "size_viewport_[1440 x 3120]"
 vertical_alignment = 1
 
 [node name="window_override_settings_display_label" type="Label" parent="VBoxContainer" unique_id=1968918437]
