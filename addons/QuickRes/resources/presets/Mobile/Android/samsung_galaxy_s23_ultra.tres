@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_c8c0m")
 model = "Samsung Galaxy S23 Ultra"
-viewport_size = Vector2i(411, 882)
+override_resolution_size = Vector2i(411, 882)
 screen_resolution = Vector2i(1440, 3088)
 dpr = 3.5
 release_year = 2023

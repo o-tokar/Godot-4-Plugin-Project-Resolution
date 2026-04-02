@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_bpupl")
 model = "iPhone 15 Pro"
-viewport_size = Vector2i(393, 852)
+override_resolution_size = Vector2i(393, 852)
 screen_resolution = Vector2i(1179, 2556)
 dpr = 3.0
 release_year = 2023

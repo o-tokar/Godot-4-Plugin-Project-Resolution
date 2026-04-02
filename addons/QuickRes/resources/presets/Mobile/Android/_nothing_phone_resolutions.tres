@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="ResolutionsGroupPreset" format=3 uid="uid://b265vxjgr5fvm"]
+[gd_resource type="Resource" script_class="ResolutionPresetsGroup" format=3 uid="uid://b265vxjgr5fvm"]
 
 [ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/QuickRes/data/device_resolution.gd" id="1_3v31s"]
 [ext_resource type="Resource" uid="uid://c67mn5salqbq3" path="res://addons/QuickRes/resources/presets/Mobile/Android/nothing_cmf_phone_1.tres" id="2_3okd1"]

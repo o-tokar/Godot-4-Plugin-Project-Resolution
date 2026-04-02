@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_2rmei")
 model = "Samsung Galaxy S25"
-viewport_size = Vector2i(360, 780)
+override_resolution_size = Vector2i(360, 780)
 screen_resolution = Vector2i(1080, 2340)
 dpr = 3.0
 release_year = 2025

@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="ResolutionsGroupPreset" format=3 uid="uid://f43hrugvig2y"]
+[gd_resource type="Resource" script_class="ResolutionPresetsGroup" format=3 uid="uid://f43hrugvig2y"]
 
 [ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/QuickRes/data/device_resolution.gd" id="1_x8h0a"]
 [ext_resource type="Resource" uid="uid://cnpbro1cx1mnm" path="res://addons/QuickRes/resources/presets/Mobile/Android/motorola_edge_70_fusion_plus.tres" id="2_y08on"]

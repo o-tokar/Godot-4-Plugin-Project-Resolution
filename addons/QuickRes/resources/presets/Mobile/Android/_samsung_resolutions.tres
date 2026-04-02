@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="ResolutionsGroupPreset" format=3 uid="uid://1li86nlhg4mt"]
+[gd_resource type="Resource" script_class="ResolutionPresetsGroup" format=3 uid="uid://1li86nlhg4mt"]
 
 [ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/QuickRes/data/device_resolution.gd" id="1_1g1lt"]
 [ext_resource type="Resource" uid="uid://jk2fdvltuxl0" path="res://addons/QuickRes/resources/presets/Mobile/Android/google_pixel_6.tres" id="2_qj1nj"]

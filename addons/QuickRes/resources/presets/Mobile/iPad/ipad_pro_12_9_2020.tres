@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_xssff")
 model = "iPad Pro 12.9\" (2020)"
-viewport_size = Vector2i(788, 1051)
+override_resolution_size = Vector2i(788, 1051)
 screen_resolution = Vector2i(2048, 2732)
 dpr = 2.6
 release_year = 2020

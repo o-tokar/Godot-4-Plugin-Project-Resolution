@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_dgi57")
 model = "iPhone 17 Pro Max"
-viewport_size = Vector2i(440, 956)
+override_resolution_size = Vector2i(440, 956)
 screen_resolution = Vector2i(1320, 2868)
 dpr = 3.0
 release_year = 2025

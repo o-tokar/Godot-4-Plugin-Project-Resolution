@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_ppirq")
 model = "iPad (A16)"
-viewport_size = Vector2i(631, 908)
+override_resolution_size = Vector2i(631, 908)
 screen_resolution = Vector2i(1640, 2360)
 dpr = 2.6
 release_year = 2025

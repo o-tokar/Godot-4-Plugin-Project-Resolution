@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_mrcxx")
 model = "iPad mini (A17 Pro)"
-viewport_size = Vector2i(572, 872)
+override_resolution_size = Vector2i(572, 872)
 screen_resolution = Vector2i(1488, 2266)
 dpr = 2.6
 release_year = 2024

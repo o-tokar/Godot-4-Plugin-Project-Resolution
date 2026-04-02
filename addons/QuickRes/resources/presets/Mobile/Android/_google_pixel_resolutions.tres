@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="ResolutionsGroupPreset" format=3 uid="uid://bqbqhccv7ccnq"]
+[gd_resource type="Resource" script_class="ResolutionPresetsGroup" format=3 uid="uid://bqbqhccv7ccnq"]
 
 [ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/QuickRes/data/device_resolution.gd" id="1_w05qr"]
 [ext_resource type="Resource" uid="uid://bfwwkqw6tatp5" path="res://addons/QuickRes/resources/presets/Mobile/Android/samsung_galaxy_s21_plus.tres" id="2_11pa6"]

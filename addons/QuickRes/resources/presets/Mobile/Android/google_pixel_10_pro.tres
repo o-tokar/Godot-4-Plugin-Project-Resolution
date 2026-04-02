@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_6c8fb")
 model = "Google Pixel 10 Pro"
-viewport_size = Vector2i(410, 914)
+override_resolution_size = Vector2i(410, 914)
 screen_resolution = Vector2i(1280, 2856)
 dpr = 3.125
 release_year = 2025

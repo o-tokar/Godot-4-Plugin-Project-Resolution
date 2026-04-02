@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ActiveDeviceResolution" format=3 uid="uid://bbj2t3m53iose"]
+
+[ext_resource type="Script" uid="uid://dbuk8iq46x573" path="res://addons/QuickRes/data/active_device_resolution.gd" id="1_tienp"]
+
+[resource]
+script = ExtResource("1_tienp")
+model = "Nothing Phone (4a)"
+screen_resolution = Vector2i(1224, 2720)
+release_year = 2026
+metadata/_custom_type_script = "uid://dbuk8iq46x573"

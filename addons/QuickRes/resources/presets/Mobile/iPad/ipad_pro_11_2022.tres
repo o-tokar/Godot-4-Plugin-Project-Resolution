@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_ehot7")
 model = "iPad Pro 11\" (2022)"
-viewport_size = Vector2i(758, 1085)
+override_resolution_size = Vector2i(758, 1085)
 screen_resolution = Vector2i(1668, 2388)
 dpr = 2.2
 release_year = 2022

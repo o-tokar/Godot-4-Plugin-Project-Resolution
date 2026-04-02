@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_ddu8w")
 model = "Nothing Phone (3a) Lite"
-viewport_size = Vector2i(386, 854)
+override_resolution_size = Vector2i(386, 854)
 screen_resolution = Vector2i(1080, 2392)
 dpr = 2.8
 release_year = 2026

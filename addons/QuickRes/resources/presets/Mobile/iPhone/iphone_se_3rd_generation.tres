@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_smk2n")
 model = "iPhone SE (3rd generation)"
-viewport_size = Vector2i(375, 667)
+override_resolution_size = Vector2i(375, 667)
 screen_resolution = Vector2i(750, 1334)
 dpr = 2.0
 release_year = 2022

@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_n1g65")
 model = "Nothing Phone (2a) Plus"
-viewport_size = Vector2i(360, 804)
+override_resolution_size = Vector2i(360, 804)
 screen_resolution = Vector2i(1080, 2412)
 dpr = 3.0
 release_year = 2024

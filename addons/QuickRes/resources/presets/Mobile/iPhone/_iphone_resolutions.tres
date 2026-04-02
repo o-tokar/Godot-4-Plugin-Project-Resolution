@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="ResolutionsGroupPreset" format=3 uid="uid://dbbs3as011uih"]
+[gd_resource type="Resource" script_class="ResolutionPresetsGroup" format=3 uid="uid://dbbs3as011uih"]
 
 [ext_resource type="Script" uid="uid://rpk7wqhtoob1" path="res://addons/QuickRes/data/device_resolution.gd" id="1_ncpnx"]
 [ext_resource type="Resource" uid="uid://4eubndc4ue76" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_12.tres" id="2_o2ors"]
@@ -26,7 +26,7 @@
 [ext_resource type="Resource" uid="uid://censu2yshpkpc" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_17_air.tres" id="24_agqsl"]
 [ext_resource type="Resource" uid="uid://i8cloalwf4xr" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_17_pro.tres" id="25_1jj5n"]
 [ext_resource type="Resource" uid="uid://dxp0hpjwovmin" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_17_pro_max.tres" id="26_ari0g"]
-[ext_resource type="Resource" uid="uid://det0u4eksafgw" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_se_(3rd_generation).tres" id="27_w5nc7"]
+[ext_resource type="Resource" uid="uid://det0u4eksafgw" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/iphone_se_3rd_generation.tres" id="27_w5nc7"]
 [ext_resource type="Script" uid="uid://bvflwl7sgqv3s" path="res://addons/QuickRes/data/resolutions_group_preset.gd" id="28_ex7fq"]
 
 [resource]

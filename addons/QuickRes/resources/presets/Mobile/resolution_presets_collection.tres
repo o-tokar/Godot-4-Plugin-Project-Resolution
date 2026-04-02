@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ResolutionGroupsCollection" format=3 uid="uid://bs5uvc6b065vb"]
+
+[ext_resource type="Script" uid="uid://bvflwl7sgqv3s" path="res://addons/QuickRes/data/resolutions_group_preset.gd" id="1_ysab1"]
+[ext_resource type="Resource" uid="uid://bqbqhccv7ccnq" path="res://addons/QuickRes/resources/presets/Mobile/Android/_google_pixel_resolutions.tres" id="2_mgbw8"]
+[ext_resource type="Resource" uid="uid://f43hrugvig2y" path="res://addons/QuickRes/resources/presets/Mobile/Android/_motorola_resolutions.tres" id="3_t83qk"]
+[ext_resource type="Resource" uid="uid://ck27a7y3yms1w" path="res://addons/QuickRes/resources/presets/Mobile/Android/_nokia_resolutions.tres" id="4_bo56t"]
+[ext_resource type="Resource" uid="uid://b265vxjgr5fvm" path="res://addons/QuickRes/resources/presets/Mobile/Android/_nothing_phone_resolutions.tres" id="5_3qkgb"]
+[ext_resource type="Resource" uid="uid://1li86nlhg4mt" path="res://addons/QuickRes/resources/presets/Mobile/Android/_samsung_resolutions.tres" id="6_dipis"]
+[ext_resource type="Resource" uid="uid://8kwb8yif4o52" path="res://addons/QuickRes/resources/presets/Mobile/iPad/_ipad_resolutions.tres" id="7_mo2o7"]
+[ext_resource type="Resource" uid="uid://dbbs3as011uih" path="res://addons/QuickRes/resources/presets/Mobile/iPhone/_iphone_resolutions.tres" id="8_wefjh"]
+[ext_resource type="Script" uid="uid://dlxj6vu5tlxvh" path="res://addons/QuickRes/data/resolution_groups_collection.gd" id="9_n7ob1"]
+
+[resource]
+script = ExtResource("9_n7ob1")
+title = "Smartphones"
+__preset_groups = Array[ExtResource("1_ysab1")]([ExtResource("2_mgbw8"), ExtResource("3_t83qk"), ExtResource("4_bo56t"), ExtResource("5_3qkgb"), ExtResource("6_dipis"), ExtResource("7_mo2o7"), ExtResource("8_wefjh")])

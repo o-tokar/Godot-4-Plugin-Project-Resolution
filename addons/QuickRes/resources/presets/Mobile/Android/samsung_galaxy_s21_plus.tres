@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_qjd2f")
 model = "Samsung Galaxy S21+"
-viewport_size = Vector2i(384, 854)
+override_resolution_size = Vector2i(384, 854)
 screen_resolution = Vector2i(1080, 2400)
 dpr = 2.8129999999999997
 release_year = 2021
