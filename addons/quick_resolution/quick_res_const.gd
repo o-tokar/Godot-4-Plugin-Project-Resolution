@@ -1,4 +1,4 @@
-class_name Const
+class_name QuickResConst
 
 class Settings:
 	const SIZE_VIEWPORT_WIDTH: String = "display/window/size/viewport_width"

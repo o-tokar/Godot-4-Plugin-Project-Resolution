@@ -11,10 +11,10 @@ class_name QuickResolutionEditorUI extends Control
 @export var __use_override_check_box: CheckBox
 @export var __res: ResolutionGroupsCollection
 
-const __size_viewport_w: String = Const.Settings.SIZE_VIEWPORT_WIDTH
-const __size_viewport_h: String = Const.Settings.SIZE_VIEWPORT_HEIGHT
-const __size_override_w: String = Const.Settings.SIZE_OVERRIDE_WIDTH
-const __size_override_h: String = Const.Settings.SIZE_OVERRIDE_HEIGHT
+const __size_viewport_w: String = QuickResConst.Settings.SIZE_VIEWPORT_WIDTH
+const __size_viewport_h: String = QuickResConst.Settings.SIZE_VIEWPORT_HEIGHT
+const __size_override_w: String = QuickResConst.Settings.SIZE_OVERRIDE_WIDTH
+const __size_override_h: String = QuickResConst.Settings.SIZE_OVERRIDE_HEIGHT
 
 var __plugin: EditorPlugin
 
@@ -28,7 +28,7 @@ func _exit_tree() -> void:
 
 
 func _enter_tree() -> void:
-	__active_res_preset = load(Const.Paths.ACTIVE_RESOLUTION)
+	__active_res_preset = load(QuickResConst.Paths.ACTIVE_RESOLUTION)
 	__res.refresh()
 	__preset_name_label.text = "Presets collection: {name}".format({"name":__res.title})
 
@@ -94,7 +94,7 @@ func __refresh_resolution():
 	__set_resolution(__active_res_preset.override_resolution_size, __size_override_w, __size_override_h)
 
 	ProjectSettings.save()
-	Extras.serialize_resource(__active_res_preset, Const.Paths.ACTIVE_RESOLUTION)
+	Extras.serialize_resource(__active_res_preset, QuickResConst.Paths.ACTIVE_RESOLUTION)
 
 	__plugin.refresh_2d_editor_view()
 	__display_saved_settings()
@@ -102,7 +102,7 @@ func __refresh_resolution():
 
 func __display_saved_settings():
 
-	__active_res_preset = load(Const.Paths.ACTIVE_RESOLUTION)
+	__active_res_preset = load(QuickResConst.Paths.ACTIVE_RESOLUTION)
 
 	var viewport_w = ProjectSettings.get_setting(__size_viewport_w)
 	var viewport_h = ProjectSettings.get_setting(__size_viewport_h)
