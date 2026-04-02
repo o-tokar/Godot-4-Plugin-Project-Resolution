@@ -42,5 +42,4 @@ The addon includes many real-world device resolutions sourced from:
 - [screensizechecker.com/devices](https://screensizechecker.com/devices)
 - [gsmarena.com](https://www.gsmarena.com/)
 
-
-**Any contribution — whether new resolution devices or functionality — is greeted with a warm welcome.❤️**
+Any contribution — whether new resolution devices or functionality — is greeted with a warm welcome.❤️
