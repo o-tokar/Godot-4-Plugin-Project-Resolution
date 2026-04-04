@@ -1,14 +1,13 @@
 # Godot Quick Resolution
 
+![Godot 4.3+](https://img.shields.io/badge/Godot-4.3%2B-blue) ![License: MIT](https://img.shields.io/badge/License-MIT-green)
+
 **Quickly change and test different Project Resolution settings** directly from the Godot editor.
 
 A lightweight editor plugin that lets you instantly switch between common resolutions (including many real device resolutions) without manually editing `project.godot` every time. Perfect for testing how your game looks on phones, tablets, desktops, and various aspect ratios.
 
 ![Screenshot](screenshot_01.png)
 
-## Requirements
-
-- Godot 4.x (recommended)
 
 ## Features
 
