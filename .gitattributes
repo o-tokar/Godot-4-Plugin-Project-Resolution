@@ -1,0 +1,30 @@
+# Normalize line endings (Godot best practice)
+* text=auto eol=lf
+
+# === Exclude everything except the quick_resolution plugin ===
+
+# Ignore all files and folders at the root
+/**                 export-ignore
+
+# Allow only the desired plugin
+/addons/quick_resolution            !export-ignore
+/addons/quick_resolution/**         !export-ignore
+
+# Explicitly ignore the other plugin
+/addons/godot-plugin-refresher      export-ignore
+/addons/godot-plugin-refresher/**   export-ignore
+
+# Root files that should not be included in the asset download
+.gitattributes     export-ignore
+.gitignore         export-ignore
+README.md          export-ignore
+LICENSE            export-ignore
+project.godot      export-ignore
+TestScene.tscn     export-ignore
+
+# Images, screenshots, and import files (only for repo/demo)
+*.png              export-ignore
+*.svg              export-ignore
+*.import           export-ignore
+screenshot_*       export-ignore
+icon.*             export-ignore
