@@ -106,14 +106,12 @@ layout_mode = 2
 layout_mode = 2
 
 [node name="orientation_check_box" type="CheckBox" parent="VBoxContainer/override_window_size" unique_id=658440218]
-self_modulate = Color(0.4392157, 1, 0.5058824, 1)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_stretch_ratio = 0.0
 text = "landscape"
 
 [node name="use_override_window_size_check_box" type="CheckBox" parent="VBoxContainer/override_window_size" unique_id=1220647888]
-self_modulate = Color(0.4392157, 1, 0.5058824, 1)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_stretch_ratio = 0.0

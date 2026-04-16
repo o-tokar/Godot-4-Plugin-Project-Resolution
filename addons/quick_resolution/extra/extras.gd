@@ -18,7 +18,7 @@ static func disconnect_all(s: Signal):
 static func serialize_resource(resource: Resource, path: String) -> bool:
 	var error = ResourceSaver.save(resource, path)
 	if error == OK:
-		print("Resource file serialized successfully. \n {path}".format({"path": path}))
+		# print("Resource file serialized successfully. \n {path}".format({"path": path}))
 		return true
 	else:
 		printerr("Failed to serialize resource file. \n {path}".format({"path": path}))

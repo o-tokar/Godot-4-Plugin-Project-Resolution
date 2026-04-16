@@ -55,28 +55,21 @@ func __display_resolutions_list(preset: ResolutionPresetsGroup):
 	__option_list_map.clear()
 	__resolutions_options_display.clear()
 
-	__resolutions_options_display.add_item(preset.preset_name)
-
 	for i in range(resolutions.size()):
 		var res = resolutions[i]
 		var _wh = "[ {width}x{height} ]".format({"width": res.screen_resolution.x, "height": res.screen_resolution.y})
 		__resolutions_options_display.add_item(res.model + " - " + _wh)
-		__option_list_map[i + 1] = res.model
+		__option_list_map[i] = res.model
 	Extras.connect_once(__resolutions_options_display.item_selected, __select_resolution)
-
+	__select_resolution(0)
 
 func __select_resolution(idx: int):
-	if idx == 0:
-		return # 0-item reserved for options-list <title>.
-
 	var data = __res.get_active_preset_resolution_by_device_model(__option_list_map[idx])
 
 	__active_res_preset.model = data.model
 	__active_res_preset.release_year = data.release_year
 	__active_res_preset.screen_resolution = data.screen_resolution
-
-	if __active_res_preset.use_override:
-		__active_res_preset.override_resolution_size = data.override_resolution_size
+	__active_res_preset.dpr = data.dpr
 
 	__refresh_resolution()
 
